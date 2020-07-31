@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Links -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Title -->
+    <title>To-do-list</title>
+</head>
+<body>
+    <section class="p-5 todo-container">
+        <form class="todo-form w-100">
+            <p id="alert" class="text-center"></p>
+            <h1 class="my-4 text-center font-weight-bold h3">Things to do</h1>
+            <div class="">
+                <input type="text" placeholder="e.g. Going to market" id="todo" class="form-group px-3 py-2" maxlength="30">
+                <button type="submit" class="submit-btn btn-info px-3 py-2">Add</button>
+            </div>
+        </form>
+        <!-- List container -->
+        <div class="list-container mt-4">
+            <div class="list-article">
+                <!-- List items -->
+            </div>
+            <p id="clear-btn" class="text-danger text-center h5">Clear list</p>
+        </div>
+    </section>
+ 
+    
+    <!-- Script -->
+    <script src="js/script.js"></script>
+</body>
+</html>
